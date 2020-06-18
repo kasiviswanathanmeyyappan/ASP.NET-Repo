@@ -3,15 +3,7 @@ pipeline {
     agent any
 
 	stages {
-
-	stage('Checkout'){
-	 
-	   steps {	           
-		     
-		git 'https://github.com/kasiviswanathanmeyyappan/ASP.NET-Repo.git'
- 
-	  }
-	}
+	
 
 	stage('Build'){
 
